@@ -205,3 +205,69 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ---------------------------
+# Python cache
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# ---------------------------
+# Virtual environments
+# ---------------------------
+venv/
+env/
+.venv/
+
+# ---------------------------
+# OS files
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------
+# Logs, temp files, output
+# ---------------------------
+*.log
+*.tmp
+*.temp
+*.cache
+temp/
+forensight_*/
+
+# ---------------------------
+# Models and large files
+# ---------------------------
+yolov8n.pt
+yolov8n.yaml
+blip-image-captioning-base/
+Salesforce/
+*.ckpt
+*.pt
+
+# ---------------------------
+# Telegram secrets and config
+# ---------------------------
+.env
+*.env
+config.py
+
+# ---------------------------
+# IDE / Editor files
+# ---------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------
+# Miscellaneous
+# ---------------------------
+*.db
+*.sqlite3
+*.zip
+
